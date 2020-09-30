@@ -1,0 +1,13 @@
+D:\Estrutura de Dados\aula01\bin\Debug\netcoreapp3.1\aula01.exe
+D:\Estrutura de Dados\aula01\bin\Debug\netcoreapp3.1\aula01.deps.json
+D:\Estrutura de Dados\aula01\bin\Debug\netcoreapp3.1\aula01.runtimeconfig.json
+D:\Estrutura de Dados\aula01\bin\Debug\netcoreapp3.1\aula01.runtimeconfig.dev.json
+D:\Estrutura de Dados\aula01\bin\Debug\netcoreapp3.1\aula01.dll
+D:\Estrutura de Dados\aula01\bin\Debug\netcoreapp3.1\aula01.pdb
+D:\Estrutura de Dados\aula01\obj\Debug\netcoreapp3.1\aula01.csprojAssemblyReference.cache
+D:\Estrutura de Dados\aula01\obj\Debug\netcoreapp3.1\aula01.AssemblyInfoInputs.cache
+D:\Estrutura de Dados\aula01\obj\Debug\netcoreapp3.1\aula01.AssemblyInfo.cs
+D:\Estrutura de Dados\aula01\obj\Debug\netcoreapp3.1\aula01.csproj.CoreCompileInputs.cache
+D:\Estrutura de Dados\aula01\obj\Debug\netcoreapp3.1\aula01.dll
+D:\Estrutura de Dados\aula01\obj\Debug\netcoreapp3.1\aula01.pdb
+D:\Estrutura de Dados\aula01\obj\Debug\netcoreapp3.1\aula01.genruntimeconfig.cache
