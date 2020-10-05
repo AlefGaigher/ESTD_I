@@ -1,0 +1,13 @@
+D:\Estrutura de Dados\AgendaTeste\bin\Debug\netcoreapp3.1\AgendaTeste.exe
+D:\Estrutura de Dados\AgendaTeste\bin\Debug\netcoreapp3.1\AgendaTeste.deps.json
+D:\Estrutura de Dados\AgendaTeste\bin\Debug\netcoreapp3.1\AgendaTeste.runtimeconfig.json
+D:\Estrutura de Dados\AgendaTeste\bin\Debug\netcoreapp3.1\AgendaTeste.runtimeconfig.dev.json
+D:\Estrutura de Dados\AgendaTeste\bin\Debug\netcoreapp3.1\AgendaTeste.dll
+D:\Estrutura de Dados\AgendaTeste\bin\Debug\netcoreapp3.1\AgendaTeste.pdb
+D:\Estrutura de Dados\AgendaTeste\obj\Debug\netcoreapp3.1\AgendaTeste.csprojAssemblyReference.cache
+D:\Estrutura de Dados\AgendaTeste\obj\Debug\netcoreapp3.1\AgendaTeste.AssemblyInfoInputs.cache
+D:\Estrutura de Dados\AgendaTeste\obj\Debug\netcoreapp3.1\AgendaTeste.AssemblyInfo.cs
+D:\Estrutura de Dados\AgendaTeste\obj\Debug\netcoreapp3.1\AgendaTeste.csproj.CoreCompileInputs.cache
+D:\Estrutura de Dados\AgendaTeste\obj\Debug\netcoreapp3.1\AgendaTeste.dll
+D:\Estrutura de Dados\AgendaTeste\obj\Debug\netcoreapp3.1\AgendaTeste.pdb
+D:\Estrutura de Dados\AgendaTeste\obj\Debug\netcoreapp3.1\AgendaTeste.genruntimeconfig.cache

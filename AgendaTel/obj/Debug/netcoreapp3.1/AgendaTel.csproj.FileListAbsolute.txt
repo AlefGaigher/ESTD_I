@@ -1,0 +1,13 @@
+D:\Estrutura de Dados\AgendaTel\bin\Debug\netcoreapp3.1\AgendaTel.exe
+D:\Estrutura de Dados\AgendaTel\bin\Debug\netcoreapp3.1\AgendaTel.deps.json
+D:\Estrutura de Dados\AgendaTel\bin\Debug\netcoreapp3.1\AgendaTel.runtimeconfig.json
+D:\Estrutura de Dados\AgendaTel\bin\Debug\netcoreapp3.1\AgendaTel.runtimeconfig.dev.json
+D:\Estrutura de Dados\AgendaTel\bin\Debug\netcoreapp3.1\AgendaTel.dll
+D:\Estrutura de Dados\AgendaTel\bin\Debug\netcoreapp3.1\AgendaTel.pdb
+D:\Estrutura de Dados\AgendaTel\obj\Debug\netcoreapp3.1\AgendaTel.csprojAssemblyReference.cache
+D:\Estrutura de Dados\AgendaTel\obj\Debug\netcoreapp3.1\AgendaTel.AssemblyInfoInputs.cache
+D:\Estrutura de Dados\AgendaTel\obj\Debug\netcoreapp3.1\AgendaTel.AssemblyInfo.cs
+D:\Estrutura de Dados\AgendaTel\obj\Debug\netcoreapp3.1\AgendaTel.csproj.CoreCompileInputs.cache
+D:\Estrutura de Dados\AgendaTel\obj\Debug\netcoreapp3.1\AgendaTel.dll
+D:\Estrutura de Dados\AgendaTel\obj\Debug\netcoreapp3.1\AgendaTel.pdb
+D:\Estrutura de Dados\AgendaTel\obj\Debug\netcoreapp3.1\AgendaTel.genruntimeconfig.cache
