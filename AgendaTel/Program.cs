@@ -12,7 +12,7 @@ namespace AgendaTel
             string op;
             do
             {
-                Console.WriteLine("----{ Recovery Contact }----");
+                
                 Recovery(circlist);
                 Console.WriteLine("----------{ Menu }----------");
                 Console.WriteLine("Press key '1' to Add");
@@ -156,6 +156,7 @@ namespace AgendaTel
                     circlist.Add(contato);
                 l++;
                 }
+                Console.WriteLine("----{ Contact Recovered Successfully }----");
                 //List(circlist);
             }
             catch(Exception ex)
