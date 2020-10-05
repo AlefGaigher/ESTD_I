@@ -12,8 +12,8 @@ namespace AgendaTel
             string op;
             do
             {
-                //Console.WriteLine("----{ Recovery Contact }----");
-                //Recovery(circlist);
+                Console.WriteLine("----{ Recovery Contact }----");
+                Recovery(circlist);
                 Console.WriteLine("----------{ Menu }----------");
                 Console.WriteLine("Press key '1' to Add");
                 Console.WriteLine("Press key '2' to Remover");
@@ -171,12 +171,8 @@ namespace AgendaTel
             catch(Exception ex)
             {
                 Console.WriteLine("The file could not be read:");
-                Console.WriteLine(ex.Message);
                 Console.WriteLine(ex.ToString());
             }
-
-            Console.Clear();
-            List(circlist);
         }
 
         public static void List(CircularList circlist)
