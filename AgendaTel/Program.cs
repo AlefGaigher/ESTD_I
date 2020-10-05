@@ -141,38 +141,52 @@ namespace AgendaTel
         {
             try
             {
-                using (StreamReader file = new StreamReader("Contatos.txt"))
-                {
-                    string name;
-                    string email;
-                    string telephone;
-                    while(true)
-                    {
-                        name = file.ReadLine();
-                        if(name == null)
-                        {
-                            break;
-                        }
-                        email = file.ReadLine();
-                        if(email == null)
-                        {
-                            break;
-                        } 
-                        telephone = file.ReadLine();
-                        if(telephone == null)
-                        {
-                            break;
-                        }
-                        circlist.Add(new Contato(name, email, telephone));
-                    }
-                
+                string[] lines = System.IO.File.ReadAllLines("Contatos.txt");
+            
+                int l = 0;
+
+                while (l < lines.Length)
+                { 
+                    Contato contato = new Contato();
+
+                    string[] aux = lines[l].Split("-");
+                    contato.Name = aux[0];
+                    contato.Telephone = aux[1]; 
+                    contato.Email = aux[2];
+                    circlist.Add(contato);
+                l++;
                 }
+                //List(circlist);
             }
             catch(Exception ex)
             {
                 Console.WriteLine("The file could not be read:");
                 Console.WriteLine(ex.ToString());
             }
+
+            // try
+            // {
+            //     using (StreamReader file = new StreamReader("lista.txt"))
+            //     {
+            //         string name;
+            //         string email;
+            //         string telephone;
+            //         while(true)
+            //         {
+            //             name = file.ReadLine();
+            //             if(name == null) break;
+            //             email = file.ReadLine();
+            //             if(email == null) break;
+            //             telephone = file.ReadLine();
+            //             if(telephone == null) break;
+            //             circlist.Add(new Contato(name, email, telephone));
+            //         }
+            //     }
+            // }
+            // catch(Exception ex)
+            // {
+            //     Console.WriteLine(ex.ToString());
+            // }
         }
 
         public static void List(CircularList circlist)
@@ -186,20 +200,37 @@ namespace AgendaTel
             
             try
             {
-                using (FileStream fs = File.Create("Contatos.txt"))
+                Node aux = circlist.head;
+
+                if (aux != null)
                 {
-                    Node aux = circlist.head;
-                    if(aux == null)
-                    {
-                     return;
-                    }
-                    while(aux.next != circlist.head) 
-                    {
-                        AddText(fs, $"{aux.data.Name}\n{aux.data.Email}\n{aux.data.Telephone}\n");                          
-                        aux = aux.next;
-                    }
-                    AddText(fs, $"{aux.data.Name}\n{aux.data.Email}\n{aux.data.Telephone}");
-                }
+                    System.IO.StreamWriter file = new System.IO.StreamWriter("Contatos.txt", false);
+                    do{
+                        file.WriteLine($"{aux.data.Name}-{aux.data.Email}-{aux.data.Telephone}");
+                        aux = aux.next; 
+                    }while (aux != circlist.head);
+                    file.Close();
+                } 
+            else 
+            {
+                System.IO.StreamWriter file = new System.IO.StreamWriter("Contatos.txt", false);
+                file.Close();
+            }
+                // using (FileStream fs = File.Create("Contatos.txt"))
+                // {
+                //     string[] linhas = File.ReadAllLines("Contatos.txt");
+                //     Node aux = circlist.head;
+                //     if(aux == null)
+                //     {
+                //      return;
+                //     }
+                //     while(aux.next != circlist.head) 
+                //     {
+                //         AddText(fs, $"{aux.data.Name}\n{aux.data.Email}\n{aux.data.Telephone}\n");                          
+                //         aux = aux.next;
+                //     }
+                //     AddText(fs, $"{aux.data.Name}\n{aux.data.Email}\n{aux.data.Telephone}");
+                // }
             }
             catch(Exception ex)
             {
