@@ -12,8 +12,8 @@ namespace AgendaTel
             string op;
             do
             {
-                Console.WriteLine("----{ Recovery Contact }----");
-                Recovery(circlist);
+                //Console.WriteLine("----{ Recovery Contact }----");
+                //Recovery(circlist);
                 Console.WriteLine("----------{ Menu }----------");
                 Console.WriteLine("Press key '1' to Add");
                 Console.WriteLine("Press key '2' to Remover");
@@ -187,6 +187,7 @@ namespace AgendaTel
 
         public static void SaveFile(CircularList circlist)
         {
+            
             try
             {
                 using (FileStream fs = File.Create("Contatos.txt"))
@@ -198,11 +199,7 @@ namespace AgendaTel
                     }
                     while(aux.next != circlist.head) 
                     {
-                        if(aux.data.Name == circlist.head.data.Name)
-                        {
-                            return;
-                        }
-                        AddText(fs, $"{aux.data.Name}\n{aux.data.Email}\n{aux.data.Telephone}\n");
+                        AddText(fs, $"{aux.data.Name}\n{aux.data.Email}\n{aux.data.Telephone}\n");                          
                         aux = aux.next;
                     }
                     AddText(fs, $"{aux.data.Name}\n{aux.data.Email}\n{aux.data.Telephone}");
@@ -210,6 +207,7 @@ namespace AgendaTel
             }
             catch(Exception ex)
             {
+                Console.WriteLine("deu ERROO");
                 Console.WriteLine(ex.ToString());
             }
         }
@@ -228,6 +226,7 @@ namespace AgendaTel
                 Console.WriteLine("Left arrow: previous");
                 Console.WriteLine("Right arrow: next");
                 Console.WriteLine("Esc to Exit");
+                Console.WriteLine("--------------------------");
                 Console.WriteLine(aux.data);
                 string key = Console.ReadKey().Key.ToString();
                 if(key == "LeftArrow")
