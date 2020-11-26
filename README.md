@@ -1,11 +1,11 @@
 # ESTD_I
 Códigos aprendidos em Estrutura de Dados I em minha graduação, Códigos escritos na Linguagem C#.
 
-Aula01 - 
-Aula02 -
-Aula03 -
-Aula04 -
-Aula05 -
+# Aula01 - 
+# Aula02 -
+# Aula03 -
+# Aula04 -
+# Aula05 -
 Aula06 -
 Aula07 -
 Aula08 -
